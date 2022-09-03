@@ -1,0 +1,151 @@
+@import url(../../../style/variables.css);
+
+.img-sign-up{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step-box{
+display: flex;    
+justify-content: center;
+}
+
+.step-card{
+    background: var(--thirdColor);
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.step-card-inactive{
+    background: var(--fourthColor);
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.text-sign-up{
+    font-family: var(--fontText1);
+    font-size: 22px;
+    color: #787878;
+    width: 242px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-number-box{
+    justify-content: center;
+    display: flex;
+    margin-top: -40px;
+}
+.form-select{
+    width: 79px;
+    height: 44px;
+    background: #F7F7F7;
+    margin-top: 5px;
+}
+#inputSignUp1{
+    width: 200px;
+}
+#btn-sign-up{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-sign-up2{
+    font-family: var(--fontText1);
+    font-size: 22px;
+    color: #787878;
+    width: 242px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-sign-up3{
+    font-family: var(--fontText1);
+    font-size: 18px;
+    color: var(--thirdColor);
+    width: 242px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn-step{
+    background: var(--secondColor);
+    color: var(--principalColor);
+}
+.check-div{
+    display: flex;
+}
+#check-step{
+    width: 25.5px !important;
+    height: 25.5px !important;
+}
+.text-step-2{
+    font-family: var(--fontText1);
+    font-size: 18px;
+    color: #787878;
+    margin: 5px;
+}
+.img-box-success-step{
+    width: 139px;
+    height: 139px;
+    padding: 20px;
+
+    overflow: hidden;
+    background: var(--thirdColor);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+.text-success-step{
+    font-family: var(--fontText1);
+    font-size: 22pt;
+    width: 200px;
+    margin-top: -170px;
+    text-align: center;
+    color: var(--principalColor) !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-step-3{
+    background: var(--thirdColor)!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn-step-4{
+    background: var(--thirdColor)!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#input-sms{
+    width: 60px;
+    height: 60px;
+    font-size: 52px;
+}
+.div-image{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-step-4{
+    width: 103px;
+    height: 104px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}

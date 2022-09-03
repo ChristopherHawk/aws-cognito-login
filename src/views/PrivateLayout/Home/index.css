@@ -1,0 +1,73 @@
+@import url(../../../style/variables.css);
+.home-div{
+
+    width: 100vw;
+    height: 100vh;
+}
+.bar-top{
+    background: var(--principalColor);
+    width: 100vw;
+    height: 100px;
+}
+
+.title-user-list{
+    font-family: var(--fontText1);
+    font-size: 20px;
+    
+}
+.user-info{
+    font-family: var(--fontText1);
+}
+
+.user-list-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.user-avatar{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 4px;
+    background: rgba(0, 0, 0, 0.747);
+    border-radius: 30%;
+}
+.btn-follow{
+    position: absolute;
+    right: 10px;
+    margin-top: 4px;
+    width: 107px;
+    height: 44px;
+    background: #A08AAF;
+    font-family: var(--fontText1);
+}
+.bottom-menu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+    background: var(--principalColor);
+}
+
+#icon-active{
+width: 50px;
+height: 50px;
+margin-top: -20px;
+color: aliceblue;
+}
+
+#icon-inactive{
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+.btn-box{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}

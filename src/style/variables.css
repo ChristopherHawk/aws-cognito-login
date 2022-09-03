@@ -1,0 +1,44 @@
+
+/* Fonts */
+@font-face {
+  font-family: 'Teko-Medium';
+  src: url('../assets/Teko-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root{
+    --principalColor:#2D0046;
+    --secondColor:#FBAC00;
+    --thirdColor:#8100C7;
+    --fourthColor:#801BC452;
+    /* Fonts */
+    --fontText1:Teko-Medium;
+  }
+
+  .button-app{
+    width: 300px;
+    height: 44px;
+    border-radius: 7px;
+    font-family: Teko-Medium;
+    margin: 5px;
+    background: var(--thirdColor);
+  }
+
+  .input-app{
+    width: 300px;
+    height: 44px;
+    border-radius: 7px;
+    font-family: Teko-Medium;
+    background: #F7F7F7;
+    border: #EBEBEB 1pt solid;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color:#ADADAD;
+  }
+  .input-app::-webkit-input-placeholder  {
+    color: #ADADAD;
+    font-size: 22pt;
+    background: #F7F7F7;
+  }

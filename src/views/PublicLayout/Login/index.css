@@ -1,0 +1,65 @@
+@import url(../../../style/variables.css);
+.container-login{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: grid;
+    border: 0.2px #EBEBEB solid;
+    background: #EBEBEB;
+
+}
+
+.card-login{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px #b6b6b6 solid;
+    display: grid;
+    justify-content: center;
+    padding: 27px;
+}
+.img-box{
+    width: 107px;
+    height: 107px;
+    padding: 20px;
+    margin-top: 159px;
+    overflow: hidden;
+    background: var(--thirdColor);
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: -40px;
+}
+
+.input-box{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+#input1{
+    margin-bottom: -30px;
+}
+.text-login-1{
+    margin-top: 30.5px;
+    font-family: var(--fontText1);
+    font-size: 18px;
+    color: var(--secondColor);
+}
+.text-login-2{
+    font-family: var(--fontText1);
+    font-size: 18px;
+}
+.link{
+    text-decoration:underline;
+    transition: 400ms;
+    font-family: var(--fontText1);
+    font-size: 18px;
+}
+.link:active{
+    color: var(--secondColor);
+}

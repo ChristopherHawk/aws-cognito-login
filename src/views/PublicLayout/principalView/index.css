@@ -1,0 +1,23 @@
+@import url(../../../style/variables.css);
+.view-container{
+    background: var(--principalColor);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.btn-box{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 8%;
+}
+/* Btn # 1 */
+#btn1{
+    background: var(--secondColor);
+}
+/* Btn # 2 */
+#btn2{
+    background: #FFFFFF;
+    color: black;
+}

@@ -1,0 +1,57 @@
+@import url(../../../style/variables.css);
+
+.container-success{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: grid;
+    border: 0.2px #EBEBEB solid;
+    background: #EBEBEB;
+}
+
+.card-success{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px #b6b6b6 solid;
+    display: grid;
+    justify-content: center;
+    padding: 27px;
+}
+
+.text-success{
+    font-family: var(--fontText1);
+    font-size: 15pt;
+    width: 130px;
+    position: absolute;
+    color: var(--secondColor) !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-success2{
+    font-family: var(--fontText1);
+    font-size: 22pt;
+    width: 130px;
+    text-align: center;
+    color: var(--principalColor) !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+}
+
+.img-box-success{
+    width: 139px;
+    height: 139px;
+    padding: 20px;
+    margin-top: -89px;
+    overflow: hidden;
+    background: var(--thirdColor);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: -40px;
+}
