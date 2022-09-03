@@ -8,6 +8,9 @@
 ### `npm i` (Instalar dependencias).
 ### `npm start`.
 
+## logueo verificado 
+### `username:` daniel
+### `password:` 1qaz2wsx
 
 
 
